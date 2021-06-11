@@ -9,4 +9,7 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     version: '8.0.1'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Suite/Test Suite Collection/TS Collection for parallel run"'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="- task: katalonTask@0
+  inputs:
+    version: '8.0.1'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Suite/Test Suite Collection/TS Collection for parallel run"'"'
