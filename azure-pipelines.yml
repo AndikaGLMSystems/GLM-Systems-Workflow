@@ -8,4 +8,4 @@ steps:
 - task: katalonTask@0
   inputs:
     version: '8.0.1'
-    executeArgs: '-browserType="Chrome" -executionProfile="default" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Suite/Test Suite Collection/TS Collection for parallel run" -apiKey="ac0360a1-d23b-4b80-b61f-c5291b4cc878"'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Users/katalon/My_Source_Code/KatalonStudio/Katalon_Web_AzureDevops/Test Suites/Regression Suite/Test Suite Collection/TS Collection for parallel run"'
